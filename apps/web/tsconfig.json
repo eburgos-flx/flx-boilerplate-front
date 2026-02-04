@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false,
+    "tsBuildInfoFile": "../../node_modules/.tmp/tsconfig.app.web.json",
+    "outDir": "../../dist/out-tsc",
+    "types": ["vite/client", "node"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "vite.config.ts"],
+  "exclude": ["node_modules", "../../node_modules", "../../libs/**/*"]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/web/src",
+  "projectType": "application",
+  "tags": ["type:app", "scope:web"],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/web",
+        "configFile": "apps/web/vite.config.ts"
+      },
+      "configurations": {
+        "production": {},
+        "development": {}
+      }
+    },
+    "dev": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "web:build"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "preview": {
+      "executor": "@nx/vite:preview",
+      "options": {}
+    },
+    "test": {
+      "executor": "@nx/vitest:test",
+      "options": {
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "options": {}
+    }
+  }
+}

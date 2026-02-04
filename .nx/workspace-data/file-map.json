@@ -1,0 +1,595 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.3.0",
+  "pathMappings": {
+    "@flx-front/shared/util": [
+      "./libs/shared/util/src/index.ts"
+    ],
+    "@flx-front/shared/store": [
+      "./libs/shared/store/src/index.ts"
+    ],
+    "@flx-front/shared/data-access": [
+      "./libs/shared/data-access/src/index.ts"
+    ],
+    "@flx-front/ui-mobile": [
+      "./libs/ui/src/mobile/index.ts"
+    ],
+    "@flx-front/ui-web": [
+      "./libs/ui/src/web/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin"
+    }
+  ],
+  "pluginsConfig": {
+    "@nx/vite": {
+      "buildTargetName": "build",
+      "devTargetName": "dev",
+      "previewTargetName": "preview",
+      "testTargetName": "test"
+    }
+  },
+  "fileMap": {
+    "projectFileMap": {
+      "mobile": [
+        {
+          "file": "apps/mobile/app.json",
+          "hash": "249556486120344104"
+        },
+        {
+          "file": "apps/mobile/app/_layout.tsx",
+          "hash": "6146619255446128844",
+          "deps": [
+            "ui-components"
+          ]
+        },
+        {
+          "file": "apps/mobile/app/index.tsx",
+          "hash": "4595500716998516594",
+          "deps": [
+            "ui-components"
+          ]
+        },
+        {
+          "file": "apps/mobile/babel.config.js",
+          "hash": "11393302563427911932"
+        },
+        {
+          "file": "apps/mobile/index.js",
+          "hash": "18116247487672699113",
+          "deps": [
+            "npm:expo-router"
+          ]
+        },
+        {
+          "file": "apps/mobile/ios/.gitignore",
+          "hash": "7693209614351072706"
+        },
+        {
+          "file": "apps/mobile/ios/.xcode.env",
+          "hash": "2240437479405059044"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile.xcodeproj/project.pbxproj",
+          "hash": "5177233478300046976"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile.xcodeproj/xcshareddata/xcschemes/FlxBoilerplateMobile.xcscheme",
+          "hash": "14164426171124006826"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile.xcworkspace/contents.xcworkspacedata",
+          "hash": "764750303202518404"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/AppDelegate.h",
+          "hash": "792400665824721941"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/AppDelegate.mm",
+          "hash": "4274058838379769566"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/FlxBoilerplateMobile-Bridging-Header.h",
+          "hash": "8563334651878373343"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/FlxBoilerplateMobile.entitlements",
+          "hash": "651095249993914003"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png",
+          "hash": "3011207099073694793"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/Images.xcassets/AppIcon.appiconset/Contents.json",
+          "hash": "15427026913346176372"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/Images.xcassets/Contents.json",
+          "hash": "3228211763563848421"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/Images.xcassets/SplashScreenBackground.colorset/Contents.json",
+          "hash": "124223954879007729"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/Info.plist",
+          "hash": "10157453635075156009"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/PrivacyInfo.xcprivacy",
+          "hash": "15615932127022425439"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/SplashScreen.storyboard",
+          "hash": "13088256341226203252"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/Supporting/Expo.plist",
+          "hash": "1393129532738616283"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/main.m",
+          "hash": "17318292586232496677"
+        },
+        {
+          "file": "apps/mobile/ios/FlxBoilerplateMobile/noop-file.swift",
+          "hash": "15309833591389969687"
+        },
+        {
+          "file": "apps/mobile/ios/Podfile",
+          "hash": "7084530602827606973"
+        },
+        {
+          "file": "apps/mobile/ios/Podfile.lock",
+          "hash": "9445433960685442135"
+        },
+        {
+          "file": "apps/mobile/ios/Podfile.properties.json",
+          "hash": "2022625698902324827"
+        },
+        {
+          "file": "apps/mobile/metro.config.js",
+          "hash": "2616286592964116610",
+          "deps": [
+            "npm:expo"
+          ]
+        },
+        {
+          "file": "apps/mobile/package.json",
+          "hash": "14336190906789478745"
+        },
+        {
+          "file": "apps/mobile/project.json",
+          "hash": "5801215943014657258"
+        },
+        {
+          "file": "apps/mobile/tsconfig.json",
+          "hash": "8503203024870045854"
+        }
+      ],
+      "shared-data-access": [
+        {
+          "file": "libs/shared/data-access/INTEGRATION.md",
+          "hash": "2899323094366412094"
+        },
+        {
+          "file": "libs/shared/data-access/README.md",
+          "hash": "13144803568316218120"
+        },
+        {
+          "file": "libs/shared/data-access/project.json",
+          "hash": "9102198145685461486"
+        },
+        {
+          "file": "libs/shared/data-access/src/api/auth.api.ts",
+          "hash": "16848462475541569293",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/api/index.ts",
+          "hash": "936344876472105351"
+        },
+        {
+          "file": "libs/shared/data-access/src/api/products.api.ts",
+          "hash": "10295601331164669105",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/client/create-api-client.ts",
+          "hash": "10975890077309990199",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/client/index.ts",
+          "hash": "15739120166462280103"
+        },
+        {
+          "file": "libs/shared/data-access/src/components/index.ts",
+          "hash": "10827407017026318586"
+        },
+        {
+          "file": "libs/shared/data-access/src/components/query-provider.tsx",
+          "hash": "10361621450425101112",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:@tanstack/react-query-devtools"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/hooks/index.ts",
+          "hash": "11010865328223109917"
+        },
+        {
+          "file": "libs/shared/data-access/src/hooks/useLogin.ts",
+          "hash": "100901121993099887",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/hooks/useMeQuery.ts",
+          "hash": "15414573992691849949",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/hooks/useProductMutations.ts",
+          "hash": "16529933133453325914",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/hooks/useProductQuery.ts",
+          "hash": "3439572026174197713",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/hooks/useProductsQuery.ts",
+          "hash": "3457227942756435771",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "libs/shared/data-access/src/index.ts",
+          "hash": "1736711936599521591"
+        },
+        {
+          "file": "libs/shared/data-access/src/types/auth.types.ts",
+          "hash": "14149353622713377373"
+        },
+        {
+          "file": "libs/shared/data-access/src/types/index.ts",
+          "hash": "7157199080427706111"
+        },
+        {
+          "file": "libs/shared/data-access/src/types/product.types.ts",
+          "hash": "7439180148942740387"
+        },
+        {
+          "file": "libs/shared/data-access/tsconfig.json",
+          "hash": "6196262583364742350"
+        }
+      ],
+      "shared-store": [
+        {
+          "file": "libs/shared/store/project.json",
+          "hash": "9079314679874599179"
+        },
+        {
+          "file": "libs/shared/store/src/auth-store.ts",
+          "hash": "16517013083252571982",
+          "deps": [
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "libs/shared/store/src/index.ts",
+          "hash": "11411241766190671315"
+        },
+        {
+          "file": "libs/shared/store/src/settings-store.ts",
+          "hash": "251941818894953173",
+          "deps": [
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "libs/shared/store/tsconfig.json",
+          "hash": "15389290443603278365"
+        }
+      ],
+      "shared-util": [
+        {
+          "file": "libs/shared/util/project.json",
+          "hash": "8542075788895605757"
+        },
+        {
+          "file": "libs/shared/util/src/index.ts",
+          "hash": "18310181572288944168"
+        },
+        {
+          "file": "libs/shared/util/tsconfig.json",
+          "hash": "5609426073996816772"
+        }
+      ],
+      "api-config": [
+        {
+          "file": "tools/api-config/project.json",
+          "hash": "8429550695365408949"
+        },
+        {
+          "file": "tools/api-config/src/config.ts",
+          "hash": "15189966066982807643"
+        },
+        {
+          "file": "tools/api-config/tsconfig.json",
+          "hash": "6859167532518375450"
+        }
+      ],
+      "web": [
+        {
+          "file": "apps/web/index.html",
+          "hash": "11146588480929612700"
+        },
+        {
+          "file": "apps/web/project.json",
+          "hash": "12944233614107374481"
+        },
+        {
+          "file": "apps/web/src/App.tsx",
+          "hash": "11178865239601405337",
+          "deps": [
+            "npm:react-router-dom",
+            "ui-components"
+          ]
+        },
+        {
+          "file": "apps/web/src/index.css",
+          "hash": "4645570607630753465"
+        },
+        {
+          "file": "apps/web/src/lib/api-client.ts",
+          "hash": "196184133092563261",
+          "deps": [
+            "shared-data-access",
+            "shared-store"
+          ]
+        },
+        {
+          "file": "apps/web/src/main.tsx",
+          "hash": "9204673345045898016",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "shared-data-access",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/home.tsx",
+          "hash": "13465710419012382830",
+          "deps": [
+            "npm:react-router-dom",
+            "ui-components"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/login.tsx",
+          "hash": "5211791446868446561",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "shared-data-access",
+            "shared-store",
+            "ui-components"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/product-detail.tsx",
+          "hash": "99838053911574669",
+          "deps": [
+            "npm:react-router-dom",
+            "shared-data-access",
+            "ui-components"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/products.tsx",
+          "hash": "9847167315728798172",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "shared-data-access",
+            "ui-components"
+          ]
+        },
+        {
+          "file": "apps/web/src/test-setup.ts",
+          "hash": "1048448271891926022",
+          "deps": [
+            "npm:@testing-library/jest-dom"
+          ]
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "13426917850586316033"
+        },
+        {
+          "file": "apps/web/vite.config.ts",
+          "hash": "815763525057028389",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@tailwindcss/vite",
+            "api-config"
+          ]
+        },
+        {
+          "file": "apps/web/vitest.config.ts",
+          "hash": "4018942583085788139",
+          "deps": [
+            "npm:vitest",
+            "npm:vite"
+          ]
+        }
+      ],
+      "ui-components": [
+        {
+          "file": "libs/ui/project.json",
+          "hash": "8178263694999678264"
+        },
+        {
+          "file": "libs/ui/src/mobile/components/index.ts",
+          "hash": "4257327646001302167"
+        },
+        {
+          "file": "libs/ui/src/mobile/components/initial-mobile-page.tsx",
+          "hash": "7095041824180227925",
+          "deps": [
+            "npm:react-native"
+          ]
+        },
+        {
+          "file": "libs/ui/src/mobile/components/mobile-layout.tsx",
+          "hash": "5231974668004679425",
+          "deps": [
+            "npm:expo-router"
+          ]
+        },
+        {
+          "file": "libs/ui/src/mobile/index.ts",
+          "hash": "5427156499007266749"
+        },
+        {
+          "file": "libs/ui/src/web/components/button.tsx",
+          "hash": "10588163393487944641",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/card.tsx",
+          "hash": "13715961180975296168",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/container.tsx",
+          "hash": "3965327183841970594",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/error-message.tsx",
+          "hash": "4912606891219265660"
+        },
+        {
+          "file": "libs/ui/src/web/components/index.ts",
+          "hash": "16764390214834323669"
+        },
+        {
+          "file": "libs/ui/src/web/components/initial-page.tsx",
+          "hash": "1584472452899615098"
+        },
+        {
+          "file": "libs/ui/src/web/components/input.tsx",
+          "hash": "13009558461764878864",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/layout.tsx",
+          "hash": "4232807956231144866",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "shared-store",
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/loading.tsx",
+          "hash": "12877308445603992986"
+        },
+        {
+          "file": "libs/ui/src/web/index.ts",
+          "hash": "5427156499007266749"
+        },
+        {
+          "file": "libs/ui/tsconfig.json",
+          "hash": "16749137935463367358"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".env.example",
+        "hash": "9846455093822120262"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2634923597966576891"
+      },
+      {
+        "file": "FRONT_ARCHITECTURE.md",
+        "hash": "2738921211275284803"
+      },
+      {
+        "file": "README.md",
+        "hash": "3268951522016334741"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "5075174433309149940"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6506938070839637381"
+      },
+      {
+        "file": "package.json",
+        "hash": "10679462964906022477"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "3161411097797246604"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13108396804214547201"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "728455415299525598"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "13354667176562422547"
+      }
+    ]
+  },
+  "externalNodesHash": "5601494672194258259"
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/tools/api-config"
+  },
+  "include": ["src/**/*.ts"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "shared-store",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/store/src",
+  "projectType": "library",
+  "tags": ["type:store", "scope:shared"],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "options": {}
+    }
+  }
+}

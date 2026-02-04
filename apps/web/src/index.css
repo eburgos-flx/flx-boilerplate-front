@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Tailwind v4 - configuración de escaneo de archivos */
+@source "../../../libs/ui/src/**/*.{ts,tsx}";
+@source "../../../libs/shared/*/src/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";

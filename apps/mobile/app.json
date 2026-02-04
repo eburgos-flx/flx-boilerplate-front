@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Flx Boilerplate Mobile",
+    "slug": "flx-boilerplate-mobile",
+    "version": "1.0.0",
+    "scheme": "flx-boilerplate-mobile",
+    "platforms": ["ios", "android"],
+    "main": "index.js",
+    "ios": {
+      "bundleIdentifier": "com.flx.boilerplate",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.flx.boilerplate",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}

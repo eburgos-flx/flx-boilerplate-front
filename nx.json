@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "defaultProject": "web",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "sharedGlobals": []
+  },
+  "targetDefaults": {
+    "build": {
+      "cache": true,
+      "outputs": ["{options.outputPath}"],
+      "inputs": ["default", "^default"]
+    },
+    "lint": {
+      "cache": true,
+      "inputs": ["default", "{workspaceRoot}/eslint.config.mjs"]
+    },
+    "test": {
+      "cache": true,
+      "inputs": ["default", "^default"]
+    }
+  },
+  "plugins": ["@nx/vite/plugin"],
+  "pluginsConfig": {
+    "@nx/vite": {
+      "buildTargetName": "build",
+      "devTargetName": "dev",
+      "previewTargetName": "preview",
+      "testTargetName": "test"
+    }
+  }
+}

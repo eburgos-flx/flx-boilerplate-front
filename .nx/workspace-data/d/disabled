@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.825Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.825Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 0.
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.844Z - Established a connection. Number of open connections: 2
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.844Z - Closed a connection. Number of open connections: 1
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.850Z - Closed a connection. Number of open connections: 0
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.866Z - Established a connection. Number of open connections: 1
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.867Z - Established a connection. Number of open connections: 2
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.867Z - Closed a connection. Number of open connections: 1
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.876Z - Received raw message of length 32
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.876Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:24.876Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 32961 code loading' 2.9835829999999994
+Time for 'plugin worker 32962 code loading' 6.333582999999997
+Time for 'plugin worker 32964 code loading' 2.5831669999999995
+Time for 'plugin worker 32963 code loading' 3.745000000000001
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:25.059Z - Closed a connection. Number of open connections: 0
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:25.059Z - [WATCHER]: Stopping the watcher for /Users/macbookprom2/clientes/flexibility/github/repos/flx-boilerplate-front (sources)
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:25.060Z - [WATCHER]: Stopping the watcher for /Users/macbookprom2/clientes/flexibility/github/repos/flx-boilerplate-front (outputs)
+[NX v22.3.0 Daemon Server] - 2026-02-03T18:39:25.060Z - Server stopped because: "this process is no longer the current daemon (native)"
+
+
+
+More information: /Users/macbookprom2/clientes/flexibility/github/repos/flx-boilerplate-front/.nx/workspace-data/d/daemon.log
