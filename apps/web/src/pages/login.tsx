@@ -42,7 +42,7 @@ export function LoginPage() {
       <div className="max-w-md mx-auto">
         {/* Header */}
         <div className="text-center mb-6">
-          <div className="inline-block p-4 bg-linear-to-br from-blue-600 to-purple-600 rounded-2xl mb-4">
+          <div className="inline-block p-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl mb-4">
             <span className="text-white text-4xl">🔐</span>
           </div>
           <h1 className="text-3xl font-bold mb-2 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">

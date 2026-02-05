@@ -3,9 +3,11 @@ node_modules/
 
 # Build outputs
 dist/
+.nx
 .nx/cache/
 tmp/
 *.tsbuildinfo
+.pnpm-store/
 
 # Environment (do not commit secrets)
 .env

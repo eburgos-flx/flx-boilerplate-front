@@ -15042,6 +15042,11 @@
         "source": "shared-store",
         "target": "npm:zustand",
         "type": "static"
+      },
+      {
+        "source": "shared-store",
+        "target": "npm:@react-native-async-storage/async-storage",
+        "type": "dynamic"
       }
     ],
     "api-config": [],
@@ -36229,5 +36234,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1770228654657
+  "computedAt": 1770296557434
 }

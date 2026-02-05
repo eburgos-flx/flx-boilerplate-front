@@ -32,7 +32,181 @@
     }
   },
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "docs/TROUBLESHOOTING.md",
+        "hash": "7771275209768646560"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13108396804214547201"
+      },
+      {
+        "file": "docs/AI_AGENT_RULES.md",
+        "hash": "3216864069859727041"
+      },
+      {
+        "file": "docs/DEPLOYMENT.md",
+        "hash": "8359826362885821938"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6506938070839637381"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "5075174433309149940"
+      },
+      {
+        "file": "docs/DEVELOPMENT.md",
+        "hash": "190853706245709110"
+      },
+      {
+        "file": ".cursorrules",
+        "hash": "14641373469828936859"
+      },
+      {
+        "file": "docs/FRONT_ARCHITECTURE.md",
+        "hash": "2738921211275284803"
+      },
+      {
+        "file": "package.json",
+        "hash": "4405116709751685772"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "3883482446228049320"
+      },
+      {
+        "file": "docs/SETUP.md",
+        "hash": "2394809527705290450"
+      },
+      {
+        "file": "README.md",
+        "hash": "2486422339274507164"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "13354667176562422547"
+      },
+      {
+        "file": ".env.example",
+        "hash": "9846455093822120262"
+      },
+      {
+        "file": "docs/API_INTEGRATION.md",
+        "hash": "12924860836130814332"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11646053699348201581"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "728455415299525598"
+      }
+    ],
     "projectFileMap": {
+      "shared-util": [
+        {
+          "file": "libs/shared/util/project.json",
+          "hash": "8542075788895605757"
+        },
+        {
+          "file": "libs/shared/util/src/index.ts",
+          "hash": "18310181572288944168"
+        },
+        {
+          "file": "libs/shared/util/tsconfig.json",
+          "hash": "5609426073996816772"
+        }
+      ],
+      "ui-components": [
+        {
+          "file": "libs/ui/project.json",
+          "hash": "8178263694999678264"
+        },
+        {
+          "file": "libs/ui/src/mobile/components/index.ts",
+          "hash": "4257327646001302167"
+        },
+        {
+          "file": "libs/ui/src/mobile/components/initial-mobile-page.tsx",
+          "hash": "7095041824180227925",
+          "deps": [
+            "npm:react-native"
+          ]
+        },
+        {
+          "file": "libs/ui/src/mobile/components/mobile-layout.tsx",
+          "hash": "5231974668004679425",
+          "deps": [
+            "npm:expo-router"
+          ]
+        },
+        {
+          "file": "libs/ui/src/mobile/index.ts",
+          "hash": "5427156499007266749"
+        },
+        {
+          "file": "libs/ui/src/web/components/button.tsx",
+          "hash": "15157294006618163886",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/card.tsx",
+          "hash": "12771497740496517890",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/container.tsx",
+          "hash": "14227709075144198940",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/error-message.tsx",
+          "hash": "4912606891219265660"
+        },
+        {
+          "file": "libs/ui/src/web/components/index.ts",
+          "hash": "12877842045533210467"
+        },
+        {
+          "file": "libs/ui/src/web/components/input.tsx",
+          "hash": "6572139691382956292",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/layout.tsx",
+          "hash": "3977941298181364699",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "shared-store",
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "libs/ui/src/web/components/loading.tsx",
+          "hash": "12877308445603992986"
+        },
+        {
+          "file": "libs/ui/src/web/index.ts",
+          "hash": "5427156499007266749"
+        },
+        {
+          "file": "libs/ui/tsconfig.json",
+          "hash": "16749137935463367358"
+        }
+      ],
       "mobile": [
         {
           "file": "apps/mobile/app.json",
@@ -219,7 +393,7 @@
         },
         {
           "file": "libs/shared/data-access/src/components/query-provider.tsx",
-          "hash": "10361621450425101112",
+          "hash": "9811725776753437276",
           "deps": [
             "npm:@tanstack/react-query",
             "npm:@tanstack/react-query-devtools"
@@ -275,7 +449,7 @@
         },
         {
           "file": "libs/shared/data-access/src/types/auth.types.ts",
-          "hash": "14149353622713377373"
+          "hash": "15470046274366496075"
         },
         {
           "file": "libs/shared/data-access/src/types/index.ts",
@@ -283,53 +457,11 @@
         },
         {
           "file": "libs/shared/data-access/src/types/product.types.ts",
-          "hash": "7439180148942740387"
+          "hash": "16014169696039214959"
         },
         {
           "file": "libs/shared/data-access/tsconfig.json",
           "hash": "6196262583364742350"
-        }
-      ],
-      "shared-store": [
-        {
-          "file": "libs/shared/store/project.json",
-          "hash": "9079314679874599179"
-        },
-        {
-          "file": "libs/shared/store/src/auth-store.ts",
-          "hash": "16517013083252571982",
-          "deps": [
-            "npm:zustand"
-          ]
-        },
-        {
-          "file": "libs/shared/store/src/index.ts",
-          "hash": "11411241766190671315"
-        },
-        {
-          "file": "libs/shared/store/src/settings-store.ts",
-          "hash": "251941818894953173",
-          "deps": [
-            "npm:zustand"
-          ]
-        },
-        {
-          "file": "libs/shared/store/tsconfig.json",
-          "hash": "15389290443603278365"
-        }
-      ],
-      "shared-util": [
-        {
-          "file": "libs/shared/util/project.json",
-          "hash": "8542075788895605757"
-        },
-        {
-          "file": "libs/shared/util/src/index.ts",
-          "hash": "18310181572288944168"
-        },
-        {
-          "file": "libs/shared/util/tsconfig.json",
-          "hash": "5609426073996816772"
         }
       ],
       "api-config": [
@@ -365,7 +497,7 @@
         },
         {
           "file": "apps/web/src/index.css",
-          "hash": "4645570607630753465"
+          "hash": "2558350296005838129"
         },
         {
           "file": "apps/web/src/lib/api-client.ts",
@@ -387,7 +519,7 @@
         },
         {
           "file": "apps/web/src/pages/home.tsx",
-          "hash": "13465710419012382830",
+          "hash": "14128902184950369017",
           "deps": [
             "npm:react-router-dom",
             "ui-components"
@@ -395,7 +527,7 @@
         },
         {
           "file": "apps/web/src/pages/login.tsx",
-          "hash": "5211791446868446561",
+          "hash": "10527033482521636277",
           "deps": [
             "npm:react",
             "npm:react-router-dom",
@@ -406,7 +538,7 @@
         },
         {
           "file": "apps/web/src/pages/product-detail.tsx",
-          "hash": "99838053911574669",
+          "hash": "7294189358901227122",
           "deps": [
             "npm:react-router-dom",
             "shared-data-access",
@@ -415,7 +547,7 @@
         },
         {
           "file": "apps/web/src/pages/products.tsx",
-          "hash": "9847167315728798172",
+          "hash": "13756645209859843266",
           "deps": [
             "npm:react",
             "npm:react-router-dom",
@@ -453,143 +585,50 @@
           ]
         }
       ],
-      "ui-components": [
+      "shared-store": [
         {
-          "file": "libs/ui/project.json",
-          "hash": "8178263694999678264"
+          "file": "libs/shared/store/README.md",
+          "hash": "4949696671006494633"
         },
         {
-          "file": "libs/ui/src/mobile/components/index.ts",
-          "hash": "4257327646001302167"
+          "file": "libs/shared/store/project.json",
+          "hash": "9079314679874599179"
         },
         {
-          "file": "libs/ui/src/mobile/components/initial-mobile-page.tsx",
-          "hash": "7095041824180227925",
+          "file": "libs/shared/store/src/auth-store.ts",
+          "hash": "11929018552131997159",
           "deps": [
-            "npm:react-native"
-          ]
-        },
-        {
-          "file": "libs/ui/src/mobile/components/mobile-layout.tsx",
-          "hash": "5231974668004679425",
-          "deps": [
-            "npm:expo-router"
-          ]
-        },
-        {
-          "file": "libs/ui/src/mobile/index.ts",
-          "hash": "5427156499007266749"
-        },
-        {
-          "file": "libs/ui/src/web/components/button.tsx",
-          "hash": "10588163393487944641",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/web/components/card.tsx",
-          "hash": "13715961180975296168",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/web/components/container.tsx",
-          "hash": "3965327183841970594",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/web/components/error-message.tsx",
-          "hash": "4912606891219265660"
-        },
-        {
-          "file": "libs/ui/src/web/components/index.ts",
-          "hash": "16764390214834323669"
-        },
-        {
-          "file": "libs/ui/src/web/components/initial-page.tsx",
-          "hash": "1584472452899615098"
-        },
-        {
-          "file": "libs/ui/src/web/components/input.tsx",
-          "hash": "13009558461764878864",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/web/components/layout.tsx",
-          "hash": "4232807956231144866",
-          "deps": [
-            "npm:react",
-            "npm:react-router-dom",
-            "shared-store",
             "npm:zustand"
           ]
         },
         {
-          "file": "libs/ui/src/web/components/loading.tsx",
-          "hash": "12877308445603992986"
+          "file": "libs/shared/store/src/index.ts",
+          "hash": "11411241766190671315"
         },
         {
-          "file": "libs/ui/src/web/index.ts",
-          "hash": "5427156499007266749"
+          "file": "libs/shared/store/src/settings-store.ts",
+          "hash": "8307312245456844788",
+          "deps": [
+            "npm:zustand"
+          ]
         },
         {
-          "file": "libs/ui/tsconfig.json",
-          "hash": "16749137935463367358"
+          "file": "libs/shared/store/src/storage.ts",
+          "hash": "17164704373203608524",
+          "deps": [
+            "npm:zustand",
+            [
+              "npm:@react-native-async-storage/async-storage",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/shared/store/tsconfig.json",
+          "hash": "15389290443603278365"
         }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".env.example",
-        "hash": "9846455093822120262"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "2634923597966576891"
-      },
-      {
-        "file": "FRONT_ARCHITECTURE.md",
-        "hash": "2738921211275284803"
-      },
-      {
-        "file": "README.md",
-        "hash": "3268951522016334741"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "5075174433309149940"
-      },
-      {
-        "file": "nx.json",
-        "hash": "6506938070839637381"
-      },
-      {
-        "file": "package.json",
-        "hash": "10679462964906022477"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "3161411097797246604"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13108396804214547201"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "728455415299525598"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "13354667176562422547"
-      }
-    ]
+    }
   },
   "externalNodesHash": "5601494672194258259"
 }
